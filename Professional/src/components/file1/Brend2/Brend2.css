@@ -1,0 +1,29 @@
+.brend2 {
+     width: 84%;
+    height: 700px;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    overflow: hidden;
+}
+.brend2 .box {
+    width: 500px;
+    height: 750px;
+}
+.brend2 p {
+    color: grey ;
+    margin-left: -114px;
+}
+.brend2 h4 {
+    color: black;
+    margin-left: -415px;
+    letter-spacing: none;
+    font-size: 18px;
+    font-weight: 700!important;
+}
+.brend2 .box .tepa {
+    background: url("./001.jpg") no-repeat center center / cover;
+}

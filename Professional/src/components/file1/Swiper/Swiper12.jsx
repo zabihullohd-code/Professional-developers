@@ -2,6 +2,8 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "./Swiper.css"
+import rasm1 from "./01.jpg"
+import rasm2 from "./02.webp"
 const Swiper12 = () => {
   return (
     <div className='swiper'>
@@ -12,10 +14,10 @@ const Swiper12 = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide><img src={rasm1} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={rasm2} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={rasm1} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={rasm2} alt="" /></SwiperSlide>
       ...
     </Swiper>
 

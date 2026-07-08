@@ -1,0 +1,73 @@
+.comment {
+    width: 100%;
+    height: 800px;
+    border-top: solid 1px grey;
+    display: flex;
+
+}
+.comment .chap {
+    width: 40%;
+    height: 100%;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comment .chap h1 {
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+}
+.comment .chap h2 {
+    font-weight: 500;
+    margin-left: -120px;
+}
+.a1 {
+    margin-left: -145px!important;
+
+}
+.a2 {
+    margin-left: -175px!important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.comment .chap p {
+    color: grey;
+    font-size: 17px;
+    margin-left: -175px;
+}
+button {
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    border: solid 1px red;
+    color: red;
+    margin-left: -150px;
+    transition: all 0.5s;
+    margin-top: 50px;
+
+}
+button:hover {
+    background: red;
+    color: white;
+}
+.a3 {
+    margin-top: 50px;
+}
+.comment .ong {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.comment .ong img {
+    width: 80%;
+    height: 70%;
+}
+
+
+
